@@ -37,19 +37,26 @@ h1{
     color:white;
     font-weight: bold;
 }
-.cardDesign{
-    padding: 25px;
-    float: left;
-    margin-top: 20px;
-    margin-left: auto;
-    box-shadow: none;
+.card{
     border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.img-fluid{
+    max-width: 50px;
 }
 .cardDesign{
-    @include media-breakpoint-only(lg) {
-      column-count: 4;
-    }
-    @include media-breakpoint-only(xl) {
-      column-count: 5;
-    }
-  }
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+   margin: 20px;
+   padding: 50px;
+
+}
+.last{
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    align-items: flex-end;
+}
