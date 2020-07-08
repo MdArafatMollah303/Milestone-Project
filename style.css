@@ -6,8 +6,7 @@
     height: 100px;
 }
 .container{
-    margin : 20px 30px;
-    padding: 20px 30px
+    margin: 100px;
 }
 .half{
     width: 40%;
@@ -49,14 +48,24 @@ h1{
     border: none;
     border-radius: 10px;
     box-shadow: none;
-   margin: 20px;
-   padding: 50px;
-
-}
-.last{
-    width: 20%;
+    padding: 50px;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-    align-items: flex-end;
+}
+.cardDesign:hover{
+    box-shadow: rgb(205, 236, 205);
+}
+.imgclass{
+    max-width: 25px;
+}
+.testomonial{
+    text-align: center;
+}
+.photo{
+    height: 100px;
+    width: 100px;
+}
+.profile{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 20px;
 }
